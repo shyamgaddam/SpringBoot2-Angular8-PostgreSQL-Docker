@@ -20,6 +20,6 @@ USER springboot
 
 COPY --from=BUILDER /workdir/target/*.jar /springboot2-app.jar
 
-EXPOSE 8080
+EXPOSE 8085
 
 CMD ["java", "-jar", "/springboot2-app.jar"]

@@ -10,7 +10,7 @@ defaultEntryPoints = ["http"]
   address = ":80"
 
 [web]
-address = ":8080"
+address = ":8085"
 
 ################################################################
 # Docker configuration backend
